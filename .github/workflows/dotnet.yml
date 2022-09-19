@@ -24,3 +24,9 @@ jobs:
 
     - name: Build solution
       run: msbuild TalkerCounter.sln -t:rebuild -property:Configuration=Release
+
+    - name: Upload build results
+      uses: actions/upload-artifact@v3
+      with:
+        name: TalkerCounter
+        path: bin/Release/*.exe
