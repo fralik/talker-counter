@@ -7,6 +7,8 @@ Talker Counter is an app for doing time managing during talks/presentations and 
 
 User can select time in minutes for both modes via settings.
 
+![ui](ui.png "Main interface")
+
 ## Motivation ##
 
 Imagine you are running a conference and need to keep track of time for people presenting. Sure you can use an alarm clock on you phone. The main problem with that is that it is invisible for the presenter. The presenter doesn't know how much time is left. Talker Counter makes it a bit better: not only there is a watch in big size, but there is a green background indicating that there is still time. Once background turns red, the presenter knows the state has changed.
